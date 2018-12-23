@@ -12,6 +12,14 @@
   , "no-consecutive-blank-lines": true
   , "quotemark": [true, "single", "avoid-escape", "avoid-template"]
   , "semicolon": [true, "never"]
+  , "typedef":
+    [ true
+    , "arrow-call-signature"
+    , "arrow-parameter"
+    , "call-signature"
+    , "parameter"
+    , "property-declaration"
+    ]
   }
 , "jsRules":
   { "max-line-length": { "options": [80] }
