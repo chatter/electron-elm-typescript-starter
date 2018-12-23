@@ -1,5 +1,4 @@
-{
-  "name": "electron-elm-typescript-starter",
+{ "name": "electron-elm-typescript-starter",
   "version": "1.0.0",
   "main": "webpack.config.ts",
   "author": "",
@@ -19,5 +18,10 @@
     "typescript": "^3.2.2",
     "webpack": "^4.28.2",
     "webpack-cli": "^3.1.2"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingCommas": "es5"
   }
 }
